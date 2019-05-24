@@ -1,0 +1,44 @@
+{
+  "name": "Excel-Handle",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": ".",
+  "dependencies": {
+    "antd": "^3.18.2",
+    "babel-plugin-import": "^1.11.2",
+    "customize-cra": "^0.2.12",
+    "file-saver": "^2.0.2",
+    "react": "^16.8.6",
+    "react-app-rewired": "^2.1.3",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
+    "xlsx": "^0.14.3"
+  },
+  "main": "main.js",
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "electron": "electron .",
+    "packager": "electron-packager ./ Excel-Handle --platform=darwin --arch=all --out C:/ --overwrite --prune=true"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "electron": "^5.0.1",
+    "electron-packager": "^13.1.1"
+  }
+}
